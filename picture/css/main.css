@@ -1,0 +1,64 @@
+/*header*/
+body {
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0;
+    color: #676d79;
+}
+
+.header-session {
+	margin: 0px auto;
+    background-color: #3c424d;
+    color: #f5f2ec;
+    height: 62px;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+
+.center-element {
+	height: 50%;
+    position: absolute;
+}
+
+.left1 {
+	left: 14px;
+	align-items: center;
+    display: flex;
+}
+
+.right1 {
+	right: 14px;
+	align-items: center;
+    display: flex;
+}
+
+.header-text {
+	font-weight: 600;
+	font-size: 19px;
+    line-height: 1.75;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.header-menu {
+	font-size: 15px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #575d69;
+    margin: 0px 12px 0 9px;
+}
+
+.selector {
+	float: left;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.selector.active{
+	border-color: #676d79;
+    background: #676d79;
+}
