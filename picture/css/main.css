@@ -1,64 +1,138 @@
 /*header*/
 body {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-    margin: 0;
-    color: #676d79;
+	font-weight: 300;
+	font-size: 13px;
+	margin: 0;
+	color: #676d79;
 }
 
-.header-session {
+.header-section {
 	margin: 0px auto;
-    background-color: #3c424d;
-    color: #f5f2ec;
-    height: 62px;
-    align-items: center;
-    position: fixed;
-    display: flex;
-    width: 100%;
+	background-color: #3c424d;
+	color: #f5f2ec;
+	height: 62px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	width: 100%;
 }
 
 .center-element {
 	height: 50%;
-    position: absolute;
+	position: absolute;
 }
 
 .left1 {
 	left: 14px;
 	align-items: center;
-    display: flex;
+	display: flex;
 }
 
 .right1 {
 	right: 14px;
 	align-items: center;
-    display: flex;
+	display: flex;
 }
 
 .header-text {
 	font-weight: 600;
 	font-size: 19px;
-    line-height: 1.75;
-    margin: 10px;
-    cursor: pointer;
+	line-height: 1.75;
+	margin: 10px;
+	cursor: pointer;
 }
 
 .header-menu {
 	font-size: 15px;
-    font-weight: 600;
-    border: 1px solid;
-    border-radius: 7px;
-    border-color: #575d69;
-    margin: 0px 12px 0 9px;
+	font-weight: 600;
+	border: 1px solid;
+	border-radius: 7px;
+	border-color: #575d69;
+	margin: 0px 12px 0 9px;
+	display: flex;
 }
 
 .selector {
 	float: left;
-    padding: 11px;
-    cursor: pointer;
+	padding: 11px;
+	cursor: pointer;
+	border-radius: 7px;
 }
 
 .selector.active{
 	border-color: #676d79;
-    background: #676d79;
+	background: #676d79;
+}
+
+.icon-social {
+	padding: 11px;
+	cursor: pointer;
+}
+
+.element-social {
+	padding: 1px 7px;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+.color-facebook {
+	background: #4267b2;
+	border: 1px solid #4267b2;
+}
+
+.color-tweet {
+	background-color: #1b95e0;
+}
+
+.header-pop-out {
+	cursor: pointer;
+}
+
+.element-upload-icon {
+	font-size: 23px;
+	padding: 7px;
+}
+
+.side-bar {
+	float: left;
+	width: 23%;
+	background-color: #f5f6f7;
+}
+
+.clear-fix {
+	overflow: auto;
+}
+
+.search-section {
+	padding: 21px 14px 21px 14px;
+	display: inline-block;
+	margin: -14px;
+	margin-bottom: 9px;
+	width: 100%;
+	position: relative;
+	background-color: #eff1f2;
+}
+
+input#search-menu {
+	border: 1px solid #eff1f2;
+	border-radius: 6px;
+	padding: 9px;
+	width: 88%;
+	outline: none;
+}
+
+input#search-menu:focus {
+	border-color: #f56a6a;
+	box-shadow: 0 0 0 1px #f56a6a;
+}
+
+.cover-sidebar {
+	padding: 14px;
+}
+
+.search-icon {
+	position: absolute;
+	top: 30px;
+	right: 39px;
 }
