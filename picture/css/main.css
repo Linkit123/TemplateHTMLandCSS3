@@ -95,7 +95,6 @@ body {
 }
 
 .side-bar {
-	height: 400px;
 	float: left;
 	width: 23%;
 	background-color: #f5f6f7;
@@ -149,7 +148,7 @@ input#search-menu:focus {
 .label-sidebar-menu {
 	font-size: 17px;
 	font-weight: 600;
-	border-bottom: solid 3px red;
+	border-bottom: solid 3px #f56a6a;
 	color: #3d4449;
 	padding: 10px 10px 10px 0;
 	display: inline-block;
@@ -168,7 +167,90 @@ input#search-menu:focus {
 
 .content-sidebar-menu {
 	padding: 0;
+	list-style: none;
 }
 .content-sidebar-menu > li:first-child {
 	border-top: 0;
+}
+
+li.label-content:hover {
+	color: #f56a6a;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+}
+
+.sidebar-menu {
+	margin-bottom: 40px;
+	padding-bottom: 15px;
+	border-bottom: solid 2px #D9D9D9;
+}
+
+.graph-image {
+	background: no-repeat;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+	width: 100%;
+	height: 164px;
+	display: inline-block;
+	border-radius: 0.375em;
+}
+.image-bear {
+	background-image: url(https://html5up.net/uploads/demos/editorial/images/pic07.jpg);
+}
+
+.image-mountain {
+	background-image: url(https://html5up.net/uploads/demos/editorial/images/pic08.jpg);
+}
+
+.image-laptop {
+	background-image: url(https://html5up.net/uploads/demos/editorial/images/pic09.jpg);
+}
+
+.graph {
+	margin: 33px 0 0 0;
+	padding-bottom: 33px;
+	border-bottom: solid 1px #D9D9D9;
+}
+
+.graph-content {
+	margin-top: 18px;
+}
+
+.graph-text {
+	font-size: 15px;
+	text-align: left;
+}
+
+span.graph-image:hover {
+	-moz-transition: -moz-transform 0.2s ease;
+	-webkit-transition: -webkit-transform 0.2s ease;
+	-ms-transition: -ms-transform 0.2s ease;
+	transition: transform 0.2s ease;
+}
+
+.last-one {
+	border-bottom:none;
+}
+
+.sidebar-graph {
+	margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px #D9D9D9;
+}
+
+.more-graph-button {
+	    display: inline-block;
+    border: solid 2px #f56a6a;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 11px 21px 11px 21px;
+}
+
+.more-graph-button:hover {
+	background-color: rgba(245, 106, 106, 0.15); 
+}
+
+@media only screen and (min-width: 680px) {
+	.sidebar {
+		background-color: #3e86ce !important;
+	}
 }
