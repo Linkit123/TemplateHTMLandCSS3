@@ -277,3 +277,42 @@ span.graph-image:hover {
 	padding-right: 12px;
 	font-size: 15px;
 }
+
+.main-body {
+	padding: 80px 70px 10px 70px;
+}
+
+.header-body {
+	border-bottom: solid 4px #f56a6a;
+	border-radius: 3px;
+	padding-bottom: 23px;
+}
+
+.left-block {
+	float: left;
+}
+
+.left-block span{
+	float: left;
+	font-size: 17px;
+	font-weight: 600;
+}
+.right-block {
+	float: right;
+}
+
+.section-body {
+	float: left;
+	width: 77%;
+}
+
+.right-block span{
+	font-size: 22px;
+	padding-left: 16px;
+	color: #7f888f;
+	cursor: pointer;
+}
+
+.right-block span:hover {
+	color: #f56a6a;
+}
