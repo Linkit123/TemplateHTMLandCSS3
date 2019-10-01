@@ -283,7 +283,7 @@ span.graph-image:hover {
 }
 
 .header-body {
-	border-bottom: solid 4px #f56a6a;
+	border-bottom: solid 5px #f56a6a;
 	border-radius: 3px;
 	padding-bottom: 23px;
 }
@@ -352,7 +352,7 @@ span.graph-image:hover {
 	line-height: 26px;
 }
 
-.first-block, .second-block {
+.first-block, .second-block, .third-block {
 	padding-bottom: 66px;
 	display: inline-block;
 	padding-top: 65px;
@@ -365,7 +365,7 @@ span.graph-image:hover {
 	border-radius: 7px;
 }
 
-.second-block .label-sidebar-menu {
+.second-block .label-sidebar-menu, .third-block .label-sidebar-menu  {
 	font-size: 29px;
 	padding-right: 19px;
 }
@@ -418,11 +418,33 @@ span.graph-image:hover {
 	margin-left: 19px;
 }
 
-.icon-feature:after {
-	font-family: 'Font Awesome 5 Free';
-	content: "\f3a5";
-	color: #f56a6a;
+.icon-graph {
+	display: flex;
+	justify-content: center;
 	font-size: 2.75rem;
+}
+
+.icon-graph > svg {
+	color: #f56a6a;
 	position: absolute;
-	left: 41px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.third-block {
+	width: 100%;
+	border: none;
+}
+
+.third-block .graph {
+	float: left;
+	    margin: 0;
+    padding-top: 33px;
+	padding-right: 34px; 
+	width: calc(50% - 35px);
+	border-right: solid 1px #d9d9d9;
+}
+
+.graph-header input {
+	width: 100%;
 }
