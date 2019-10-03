@@ -95,6 +95,9 @@ body {
 }
 
 .side-bar {
+	opacity: 1;
+	transition: all 0.5s ease;
+	position: relative;
 	float: left;
 	width: 23%;
 	background-color: #f5f6f7;
@@ -305,6 +308,7 @@ span.graph-image:hover {
 }
 
 .section-body {
+	position: relative;
 	float: left;
 	width: 77%;
 }
@@ -437,14 +441,40 @@ span.graph-image:hover {
 }
 
 .third-block .graph {
-	float: left;
-	    margin: 0;
-    padding-top: 33px;
-	padding-right: 34px; 
-	width: calc(50% - 35px);
-	border-right: solid 1px #d9d9d9;
+	margin: 0;
+	display: inline-block;
+	width: calc(50% - 1px);
+	border: none;
 }
 
 .graph-header input {
+	width: 100%;
+}
+
+.posts {
+	margin-top: 25px;
+	width: 100%;
+	display: inline-table;
+}
+
+.cover-graph {
+	margin-right: 36px;
+}
+
+.three-dot {
+	cursor: pointer;
+    position: absolute;
+    color: #f56a6a;
+    top: 10px;
+    left: 18px;
+    font-size: 30px;
+}
+
+.hidden-sideBar {
+	width: 0;
+	opacity: 0;
+}
+
+.expand-main-body {
 	width: 100%;
 }
